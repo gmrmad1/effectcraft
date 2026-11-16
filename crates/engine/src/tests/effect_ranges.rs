@@ -62,6 +62,7 @@ const ROWS: &[(u32, &str, &str, f64, f64)] = &[
     (3470, "ec.distort.turbulentdisplace", "evolutionOptions/randomSeed", 0.0, 100000.0),
     (3460, "ec.blur.gaussian", "blurriness", 0.0, 30000.0),
     (3464, "ec.perspective.dropshadow", "softness", 0.0, 30000.0),
+    (3466, "ec.blur.sharpen", "amount", 0.0, 4000.0),
 ];
 
 fn path(effect: &str, param: &str) -> String {
